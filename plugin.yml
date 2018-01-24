@@ -1,0 +1,14 @@
+author: StupidBot
+version: 1.0.0
+name: eBar
+main: com.stupidbot.universalbossbar.Main
+description: Boss bars!
+commands:
+   reloadbossbars:
+     description: Reloads boss bar(s)!
+     aliases: [reloadbossbar, reloaduniversalbossbar, reloaduniversalbossbars, reloadbar, reloadbars]
+     usage: /<command>
+   togglebars:
+     description: Hides boss bar(s)!
+     aliases: [togglebar, togglebossbars, togglebossbar]
+     usage: /<command>
