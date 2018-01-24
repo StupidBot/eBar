@@ -22,6 +22,7 @@ public class Main extends JavaPlugin implements Listener {
 			for (BossBar bar : BossBars.getBars().values())
 				bar.removePlayer(all);
 		FileConfiguration config = instance.getConfig();
+		instance.reloadConfig();
 		config.set("HiddenBars.Players", BossBars.hiddenBars);
 		instance.saveConfig();
 		instance = null;
